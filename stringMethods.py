@@ -1,3 +1,3 @@
-sentence = "this is a sentence"
+sentence = "This is a sentence"
 
-print(sentence.upper())
+print(sentence.startswith("is", 5))
