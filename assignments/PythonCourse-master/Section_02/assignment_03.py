@@ -13,15 +13,7 @@ original_list = ['cup', 'cereal', 'milk', (8, 4, 3)]
 
 # your code below:
 
-
-
-
-
-
-
-
-
-
+print(sorted(original_list[3]))
 
 
 

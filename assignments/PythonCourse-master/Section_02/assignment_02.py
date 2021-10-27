@@ -9,13 +9,23 @@ a jacket, a car, and TV. Mike is another person who makes 24000 and is 27 years 
 who owns a bike, a laptop and boat.
 """
 
+
 # your code below:
-
-
-
-
-
-
+my_list = [
+    {
+        'tom': {
+            'salary': 20000,
+            'age': 22,
+            'items': ['jacket', 'car', 'tv']
+        },
+        'mike': {
+            'salary': 24000,
+            'age': 27,
+            'items': ['bike', 'laptop', 'boat']
+        }
+    }
+]
+print(my_list[0].get('mike'))
 
 
 
